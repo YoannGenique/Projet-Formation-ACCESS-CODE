@@ -1,0 +1,331 @@
+@media(min-width: 768px) and(max-width: 1388px)
+{
+    #global
+
+{
+
+            width :100% ;
+
+            padding :0px ;
+
+}
+
+ 
+
+#menu-gauche
+
+{
+
+            width :100% ;           
+
+}
+
+ 
+
+#contenu
+
+{
+
+            width :80% ;
+
+}
+}
+@media(max-width: 767px)
+
+{ 
+
+ 
+
+#global
+
+{
+
+            width :100% ;
+
+            padding :0px ;
+
+}
+
+ 
+
+#menu-gauche
+
+{
+
+            width :100% ;
+
+}
+
+ 
+
+#contenu
+
+{
+
+            width :100% ;
+
+}
+
+ 
+
+#sidebar-droite
+
+{
+
+            width :100% ;
+
+}
+
+ 
+
+ 
+
+}
+
+
+
+
+
+
+
+/* en tete */
+#entete{
+    background-image: url(img/images-10-lieux-incontournable/abbaye-saint-martin.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    height: 100%;
+    padding-bottom: 175px;
+    justify-content: space-around;
+    text-decoration: ;
+}
+/* slogan */
+.slogan{
+    padding: 0;
+    margin: 0 auto;
+}
+/* Menu */
+nav > ol{
+    background-color: rgb(221, 207, 5);
+    list-style: none;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    padding: 0%;
+}
+nav > ol > li{
+    background-color: rgb(185, 16, 16);
+    width: 20%;
+}
+
+nav > ol > li> a{
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a:hover{
+    color: black;
+    transition: color 2s;
+    background-color: yellow ;
+}
+/* fin menu */
+
+/* Page 1 */
+
+/* contenus */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size: 4.0rem;
+    color: rgb(0, 0, 0);
+    border: 4px dotted white;
+    margin-top: 0;
+    background: linear-gradient(to right, red, yellow, red);
+}
+#histoire{
+    text-decoration: underline;
+}
+.situaaside{
+    display: flex;
+    justify-content: space-around;
+}
+
+.situa{
+    float: left;
+    text-align: center;
+    padding: 0 5px 0 5px;
+}
+#h2situe{
+    border: 2px dotted red;
+    background: linear-gradient(to right, red, yellow, red);
+    text-align: center;
+    font-size: 1.8rem;
+    color: black;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color: black;
+}
+
+
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+    color: black;
+    
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.0rem;
+    color: red;
+    background: linear-gradient(to right, red, yellow, red);
+}
+#copy{
+    color: white;
+    padding-left: 3%;
+}
+#mail{
+    color: white;
+    text-decoration: none;
+    padding: 19px;
+    font-weight: bold;
+}
+#mail:hover{
+    color: black;
+}
+#h2climat{
+    border: 2px dotted red;
+    background: linear-gradient(to right, red, yellow, red);
+    text-align: center;
+    font-size: 1.8rem;
+    color: black;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+#pclimat{
+    padding: 0 50px 0 50px;
+    text-align: center;
+}
+
+/* carous */
+#slider{
+    width: 100%;
+    max-width: 500px;
+    overflow: hidden;
+    display: block;
+    margin-left: 34%;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: center;
+    animation: 30s slidy infinite;
+}
+#slider figure img{
+    width: 20%;
+    height: auto;
+    float: left;
+    border-radius: 10px;
+}
+@keyframes slidy{
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+/* fincarous */
+/* lieux incon */
+#climatgr{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.lieux{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.lieux header{
+    background-color: red;
+    border-radius: 10%;
+
+}
+.lieux header a{
+    color: yellow;
+    text-decoration: none;
+}
+.lieux header a:hover{
+
+    color: white;
+    transition: 2s;
+}
+/* finlieux */
+/* Actualités */
+.actus{
+    display: flex ;
+}
+.actus img{
+    padding: 20px 20px 20px 20px;
+    border-radius: 25%;
+}
+.actus p{
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.actus h2{
+    background-color: red;
+    border-radius: 15%;
+    color: white;
+}
+/* Marché foires */
+.grmarche{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.grmarche div{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+.grmarche div p{
+    text-align: center;
+    padding-bottom: 5px;
+    color: white;
+}
+.grmarche div a{
+    text-decoration: none;
+    color: blue;
+}
+.grmarche div a:hover{
+    color: yellow;
+    transition: 2sec;
+}
+.grmarche div h2{
+    color: yellow;
+}
+/* fin marché */
